@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "hello node",
+            "invocationName": "スマートじゃないホーム",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -16,17 +16,21 @@
                     "samples": []
                 },
                 {
-                    "name": "HelloWorldIntent",
+                    "name": "LightOnIntent",
                     "slots": [],
                     "samples": [
-                        "hello",
-                        "how are you",
-                        "say hi world",
-                        "say hi",
-                        "hi",
-                        "say hello world",
-                        "say hello"
+                        "電気をつけて",
+                        "ライトをつけて"
                     ]
+                },
+                {
+                    "name": "LightOffIntent",
+                    "slots": [],
+                    "samples": [
+                        "電気を消して",
+                        "ライトを消して"
+                    ]
+                
                 }
             ],
             "types": []

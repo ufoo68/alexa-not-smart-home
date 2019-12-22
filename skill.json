@@ -2,15 +2,15 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
-          "summary": "A basic skill made from Alexa Skills Kit template",
+        "ja-JP": {
+          "summary": "スマートじゃない、スマートホームスキル",
           "examplePhrases": [
-            "Alexa open hello node",
-            "Alexa tell hello node hello",
-            "Alexa ask hello node say hello"
+            "Alexa、スマートじゃないホームを起動して",
+            "電気をつけて",
+            "電気をけして"
           ],
-          "name": "hello node",
-          "description": "A basic skill made from Alexa Skills Kit template"
+          "name": "スマート（じゃない）ホーム",
+          "description": "スマートじゃない、スマートホームスキル"
         }
       },
       "isAvailableWorldwide": true,
